@@ -141,3 +141,9 @@ CACHES = {
         'LOCATION': os.path.join(BASE_DIR, 'coolsite_cache'),
     }
 }
+
+try:
+    from .local_settings import *
+except ImportError:
+    print("Проблемы с локальным файлом настроек")
+

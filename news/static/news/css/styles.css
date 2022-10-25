@@ -416,4 +416,6 @@ ul.lang-list li a:hover {color: #fdc073;}
     min-width: 150px;
 }
 
-
+.resume{
+    background: url('../files/Sanakoev_boris.pdf')
+}
